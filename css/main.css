@@ -1,0 +1,264 @@
+body{
+    background-color: grey;
+    font-family: Roboto, sans-serif;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "g-theater home features our-actors mission contact";
+    border-radius: 10px;
+}
+
+nav div{
+    display: inline;
+    padding: 10px;
+    margin: 20px;
+    margin-right: 25px;
+}
+
+.g-theater{
+    grid-area: g-theater;
+}
+
+.home{
+    grid-area: home;
+}
+
+.features{
+    grid-area: features;
+}
+
+.our-actors{
+    grid-area: our-actors;
+}
+
+.mission{
+    grid-area: mission;
+}
+
+.contact{
+    grid-area: contact;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.hero-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.first-article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "image1 header button"
+    "image1 caption button"
+}
+
+.second-article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "image2 header2 button2"
+    "image2 caption2 button2"
+}
+
+.third-article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "image3 header3 button3"
+    "image3 caption3 button3"
+}
+
+.fourth-article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "image4 header4 button4"
+    "image4 caption4 button4"
+}
+
+.image1{
+    grid-area: image1;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+.image2{
+    grid-area: image2;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+.image3{
+    grid-area: image3;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+.image4{
+    grid-area: image4;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+.image1 img, .image2 img, .image3 img, .image4 img{
+    border-radius: 15px;
+}
+
+.header1{
+    grid-area: header1;
+}
+
+.header2{
+    grid-area: header2;
+}
+
+.header3{
+    grid-area: header3;
+}
+
+.header4{
+    grid-area: header4;
+}
+
+.caption1{
+    grid-area: caption1;
+}
+
+.caption2{
+    grid-area: caption2;
+}
+
+.caption3{
+    grid-area: caption3;
+}
+
+.caption4{
+    grid-area: caption4;
+}
+
+.button1{
+    grid-area: button1;
+    margin: 55px;
+    width: 100px;
+    height: 40px;
+    margin-top: 100px;
+}
+
+.button2{
+    grid-area: button2;
+    margin: 55px;
+    width: 100px;
+    height: 40px;
+    margin-top: 100px;
+}
+
+.button3{
+    grid-area: button3;
+    margin: 55px;
+    width: 100px;
+    height: 40px;
+    margin-top: 100px;
+}
+
+.button4{
+    grid-area: button4;
+    margin: 55px;
+    width: 100px;
+    height: 40px;
+    margin-top: 100px;
+}
+
+.image1, .header1, .caption1{
+    margin: 10px;
+}
+
+.image2, .header2, .caption2{
+    margin: 10px;
+}
+
+.image3, .header3, .caption3{
+    margin: 10px;
+}
+
+.image4, .header4, .caption4{
+    margin: 10px;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr auto auto auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "footer-image footer-header1 footer-header2 footer-header3"
+    "footer-image footer-caption1 footer-caption2 footer-caption3";
+}
+
+.footer-image{
+    grid-area: footer-image;
+    height: 100px;
+    width: auto;
+}
+
+.footer-header1{
+    grid-area: footer-header1;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.footer-header2{
+    grid-area: footer-header2;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.footer-header3{
+    grid-area: footer-header3;
+    padding: 15px;
+    margin-right: 200px;
+}
+
+.footer-caption1{
+    grid-area: footer-caption1;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.footer-caption2{
+    grid-area: footer-caption2;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.footer-caption3{
+    grid-area: footer-caption3;
+    padding: 15px;
+    margin-right: 200px;
+}
+
+.f-image{
+    height: auto;
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 35px;
+    border-radius: 10px;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
